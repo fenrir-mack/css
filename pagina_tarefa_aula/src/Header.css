@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.header_pagina {
+    box-sizing: border-box;
+    width: fit-content;
+    border: 4px;
+    padding: 5px;
+}
+
+#header_espaco{
+    flex-grow: 1;
+}
+
+.header_botao{
+
+}
+
+.header_botao:hover{
+background: #0e756d;
+color: white;
+}
