@@ -1,18 +1,18 @@
 
-
+import './Categorias.css'
 
 function Categorias() {
     return (
         <>
-            <div>
-                <h3>Categorias Populares</h3>
-                <div>
+            <h3>Categorias Populares</h3>
+            <div className="categorias_populares">
+                <div className='categorias_populares_populares'>
                     Work
                 </div>
-                <div>
+                <div className='categorias_populares_populares'>
                     books
                 </div>
-                <div>
+                <div className='categorias_populares_populares'>
                     techno
                 </div>
             </div>

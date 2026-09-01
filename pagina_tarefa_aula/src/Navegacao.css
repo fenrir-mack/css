@@ -1,0 +1,13 @@
+.navegacao{
+    display: flex;
+    height: 200px;
+}
+.navegacao_conteudo {
+    width: 50%;
+}
+
+.navegacao img {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
